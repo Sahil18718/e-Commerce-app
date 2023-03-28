@@ -4,7 +4,11 @@
     justify-content: space-evenly;
     
 }
+#mainfooter h3{
+    margin-top: 50px;
+}
 #mainfooter p{
+    font-family: Times, "Times New Roman", Georgia, serif ;
     font-style: normal;
     font-size: 14px;
     color: #666666;
