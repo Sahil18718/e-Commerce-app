@@ -59,11 +59,49 @@
         </div>
         <div class="right">
             <img src="./home page picture/search.svg" alt="">
-            <img src="./home page picture/login.svg" alt="">
-            <img src="./home page picture/cart.svg" alt="">
+            <a href="./signin.html">
+                <img src="./home page picture/login.svg" alt="">
+            </a>
+            
+            <a href="./cart.html">
+                <img src="./home page picture/cart.svg" alt="">
+            </a>
         </div>
     </div>    
     <!-- top navbar -->
+    <!-- photo -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTMRINu54Z8pyTK3J1HQEvpW1X1VcJZLPn2Q&usqp=CAU" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://bahrainofw.com/wp-content/uploads/2020/08/online-shopping-website-bahrain-2.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    <!-- photo -->
     <footer>
         <div id="mainfooter">
             <div id="footer-first">
@@ -108,5 +146,33 @@
         </div>
     </div>
 </body>
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    }
+</script>
 </html>
 
