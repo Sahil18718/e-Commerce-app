@@ -7,6 +7,7 @@
     padding: 10px;
     font-size: 18px;
     border: none;
+    margin-top: 18px;
 }
 
 .dropdown {
@@ -47,6 +48,10 @@
     background-color: white;
 }
 
+.brand h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
 .topnav{
     display: flex;
     
@@ -59,7 +64,7 @@
 .right{
     display: flex;
     /* justify-content: space-between; */
-    margin-left:30%;
+    margin-left:28%;
 }
 
 .right img{
