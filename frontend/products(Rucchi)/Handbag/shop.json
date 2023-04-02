@@ -1,0 +1,1062 @@
+{
+    "women":[
+        {
+            "id":1,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/0387/195/611/2/w/281/0387195611_1_1_1.jpg?ts=1668527092971",
+            "name":"SEQUIN BLAZER DRESS",
+            "catagory":"dress",
+            "price":5990
+        },
+        {
+            "id":2,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/9246/864/800/2/w/281/9246864800_1_1_1.jpg?ts=1666959137003",
+            "name":"MIDI DRESS",
+            "catagory":"dress",
+            "price":3990
+        },
+        {
+            "id":3,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/3067/206/423/2/w/281/3067206423_1_1_1.jpg?ts=1660218548500",
+            "name":"DARTED SHORT DRESS",
+            "catagory":"dress",
+            "price":2590
+        },
+        {
+            "id":4,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/8469/322/800/13/w/281/8469322800_1_1_1.jpg?ts=1670432211885",
+            "name":"LONG PRINTED DRESS",
+            "catagory":"dress",
+            "price":6790
+        },
+        {
+            "id":5,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/8514/056/800/2/w/281/8514056800_1_1_1.jpg?ts=1668771782048",
+            "name":"VELVET MINI DRESS",
+            "catagory":"dress",
+            "price":4990
+        },{
+            "id":6,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/7978/911/330/2/w/281/7978911330_1_1_1.jpg?ts=1654516102825",
+            "name":"SHORT SATIN DRESS",
+            "catagory":"dress",
+            "price":5900
+        },{
+            "id":7,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/6895/221/330/2/w/281/6895221330_1_1_1.jpg?ts=1668705087123",
+            "name":"LONG PRINTED DRESS",
+            "catagory":"dress",
+            "price":3990.00
+        },{
+            "id":8,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/4786/284/800/2/w/281/4786284800_1_1_1.jpg?ts=1664536992339",
+            "name":"LACE MIDI DRESS",
+            "catagory":"dress",
+            "price":5390
+        },{
+            "id":9,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/8759/362/251/2/w/281/8759362251_1_1_1.jpg?ts=1660727370421",
+            "name":"VELVET SHIRT DRESS",
+            "catagory":"dress",
+            "price":5490
+        },{
+            "id":10,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/1971/172/098/2/w/281/1971172098_1_1_1.jpg?ts=1660721863051",
+            "name":"CONTRAST SEQUIN DRESS",
+            "catagory":"dress",
+            "price":5890
+        }
+    ],
+    "men":[
+        {
+            "id":1,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/7545/405/400/2/w/281/7545405400_2_1_1.jpg?ts=1661256151300",
+            "name":"SLIM FIT SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"XL"
+        },
+        {
+            "id":2,
+            "img":"https://static.zara.net/photos///2022/I/0/2/p/4127/299/800/2/w/281/4127299800_1_1_1.jpg?ts=1670843781540",
+            "name":"STRETCH SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"X"
+        },
+        {
+            "id":3,
+            "img":"https://static.zara.net/photos///2023/V/0/2/p/4100/264/084/2/w/281/4100264084_1_1_1.jpg?ts=1669367924422",
+            "name":"SATIN SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"L"
+        },
+        {
+            "id":4,
+            "img":"https://static.zara.net/photos///2023/V/0/2/p/4041/054/800/2/w/281/4041054800_1_1_1.jpg?ts=1669720556905",
+            "name":"FLORAL JACQUARD SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"XL"
+        },
+        {
+            "id":5,
+            "img":"https://static.zara.net/photos///2023/V/0/2/p/7545/191/800/2/w/281/7545191800_1_1_1.jpg?ts=1669720586657",
+            "name":"FLORAL JACQUARD SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"X"
+        },
+        {
+            "id":6,
+            "img":"https://static.zara.net/photos///2022/I/0/2/p/6085/355/800/2/w/281/6085355800_1_1_1.jpg?ts=1663149919933",
+            "name":"GEOMETRIC PRINT SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"L"
+        },
+        {
+            "id":7,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/4483/441/250/2/w/281/4483441250_2_1_1.jpg?ts=1663772730052",
+            "name":"BANDANA PRINT SHIRT",
+            "catagory":"shirt",
+            "price":1990,
+            "size":"XL"
+        },
+        {
+            "id":8,
+            "img":"https://static.zara.net/photos///2022/I/0/2/p/0399/014/623/2/w/281/0399014623_1_1_1.jpg?ts=1658845522737",
+            "name":"STRIPED SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"X"
+        },
+        {
+            "id":9,
+            "img":"https://static.zara.net/photos///2022/I/0/2/p/7446/303/330/2/w/281/7446303330_1_1_1.jpg?ts=1664348678493",
+            "name":"MESH TEXTURED SHIRT",
+            "price":5990,
+            "size":"L"
+        },
+        {
+            "id":10,
+            "img":"https://static.zara.net/photos///2022/I/0/1/p/1434/290/058/2/w/281/1434290058_2_1_1.jpg?ts=1664812184315",
+            "name":"STRIPED SHIRT",
+            "catagory":"shirt",
+            "price":5990,
+            "size":"XL"
+        },
+        {
+            "id":11,
+            "img":"https://m.media-amazon.com/images/I/512pBZ7L-JL._AC_UL320_.jpg",
+            "name":"DIVERSE SHIRT",
+            "catagory":"shirt",
+            "price":6990,
+            "size":"X"
+        },
+        {
+            "id":12,
+            "img":"https://m.media-amazon.com/images/I/71cFpnm0b6S._AC_UL320_.jpg",
+            "name":"LOOK MARK",
+            "catagory":"shirt",
+            "price":4990,
+            "size":"L"
+        },
+        {
+            "id":13,
+            "img":"https://m.media-amazon.com/images/I/81EqA--jXFL._AC_UL320_.jpg",
+            "name":"ALLEN SOLLY",
+            "catagory":"shirt",
+            "price":2990,
+            "size":"XL"
+        },
+        {
+            "id":13,
+            "img":"https://m.media-amazon.com/images/I/618Wek95laS._AC_UL320_.jpg",
+            "name":"DENNIS LINGO",
+            "catagory":"shirt",
+            "price":2990,
+            "size":"X"
+        },
+        {
+            "id":14,
+            "img":"https://m.media-amazon.com/images/I/710+M61cX4L._AC_UL320_.jpg",
+            "name":"DIVERSE",
+            "catagory":"shirt",
+            "price":2990,
+            "size":"L"
+        },
+        {
+            "id":15,
+            "img":"https://m.media-amazon.com/images/I/71yM0xUAetL._AC_UL320_.jpg",
+            "name":"INDO PRIMO",
+            "catagory":"shirt",
+            "price":2990,
+            "size":"XL"
+        },
+        {
+            "id":16,
+            "img":"https://m.media-amazon.com/images/I/51L+sv4kd9L._AC_UL320_.jpg",
+            "name":"MANQ",
+            "catagory":"shirt",
+            "price":2990,
+            "size":"X"
+        },
+        {
+            "id":17,
+            "img":"https://m.media-amazon.com/images/I/81uTb5UwUgL._AC_UL320_.jpg",
+            "name":"MIRAAN",
+            "catagory":"shirt",
+            "price":2990,
+            "size":"L"
+        }
+
+
+        
+    ],
+    "kids":[
+        {
+            "id":1,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/9632/708/250/2/w/281/9632708250_6_1_1.jpg?ts=1655733389464",
+            "name":"CUT-OUT DENIM DRESS",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":2,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/6474/549/052/2/w/281/6474549052_6_1_1.jpg?ts=1663937258827",
+            "name":"JUMPSUIT WITH ELASTIC",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":3,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/1165/729/807/2/w/281/1165729807_6_1_1.jpg?ts=1659440891829",
+            "name":"POWERPUFF GIRLS CAR",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":4,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/1554/748/711/2/w/281/1554748711_6_1_1.jpg?ts=1658992197888",
+            "name":"TWO-PACK OF PLAIN TIGHTS",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":5,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/1554/748/711/2/w/750/1554748711_6_1_1.jpg?ts=1658992197888",
+            "name":"KIDS/ JACQUARD KNIT",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":6,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/0653/700/802/2/w/281/0653700802_6_5_1.jpg?ts=1667906990682",
+            "name":"KIDS/ CAT FAUX FUR EAR",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":7,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/0722/699/807/2/w/281/0722699807_6_1_1.jpg?ts=1667549519900",
+            "name":"KIDS/ STAR PYJAMAS",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":8,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/0653/703/600/2/w/281/0653703600_6_5_1.jpg?ts=1665483457771",
+            "name":"KIDS/ FAUX FUR EARMUFFS",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":9,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/7099/799/250/2/w/281/7099799250_6_1_1.jpg?ts=1653031131365",
+            "name":"KIDS/ SMILEYWORLD",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        },
+        {
+            "id":10,
+            "img":"https://static.zara.net/photos///2022/I/0/3/p/8501/724/712/2/w/281/8501724712_6_1_1.jpg?ts=1664533173554",
+            "name":"KIDS/ PACK OF SIX TEXT",
+            "catagory":"kids",
+            "price":"₹ 5,990.00"
+        }
+    ],
+
+   "shirt" : [
+    {
+        "id":1,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/7545/405/400/2/w/281/7545405400_2_1_1.jpg?ts=1661256151300",
+        "name":"SLIM FIT SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":2,
+        "img":"https://static.zara.net/photos///2022/I/0/2/p/4127/299/800/2/w/281/4127299800_1_1_1.jpg?ts=1670843781540",
+        "name":"STRETCH SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":3,
+        "img":"https://static.zara.net/photos///2023/V/0/2/p/4100/264/084/2/w/281/4100264084_1_1_1.jpg?ts=1669367924422",
+        "name":"SATIN SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":4,
+        "img":"https://static.zara.net/photos///2023/V/0/2/p/4041/054/800/2/w/281/4041054800_1_1_1.jpg?ts=1669720556905",
+        "name":"FLORAL JACQUARD SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":5,
+        "img":"https://static.zara.net/photos///2023/V/0/2/p/7545/191/800/2/w/281/7545191800_1_1_1.jpg?ts=1669720586657",
+        "name":"FLORAL JACQUARD SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":6,
+        "img":"https://static.zara.net/photos///2022/I/0/2/p/6085/355/800/2/w/281/6085355800_1_1_1.jpg?ts=1663149919933",
+        "name":"GEOMETRIC PRINT SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":7,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/4483/441/250/2/w/281/4483441250_2_1_1.jpg?ts=1663772730052",
+        "name":"BANDANA PRINT SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":8,
+        "img":"https://static.zara.net/photos///2022/I/0/2/p/0399/014/623/2/w/281/0399014623_1_1_1.jpg?ts=1658845522737",
+        "name":"STRIPED SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":9,
+        "img":"https://static.zara.net/photos///2022/I/0/2/p/7446/303/330/2/w/281/7446303330_1_1_1.jpg?ts=1664348678493",
+        "name":"MESH TEXTURED SHIRT",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":10,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/1434/290/058/2/w/281/1434290058_2_1_1.jpg?ts=1664812184315",
+        "name":"STRIPED SHIRT",
+        "catagory":"shirt",
+        "price":"₹ 5,990.00"
+    }
+    
+],
+"dress":[
+    {
+        "id":1,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/0387/195/611/2/w/281/0387195611_1_1_1.jpg?ts=1668527092971",
+        "name":"SEQUIN BLAZER DRESS",
+        "catagory":"dress",
+        "price":"₹ 5,990.00"
+    },
+    {
+        "id":2,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/9246/864/800/2/w/281/9246864800_1_1_1.jpg?ts=1666959137003",
+        "name":"MIDI DRESS",
+        "catagory":"dress",
+        "price":"₹ 3,990.00"
+    },
+    {
+        "id":3,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/3067/206/423/2/w/281/3067206423_1_1_1.jpg?ts=1660218548500",
+        "name":"DARTED SHORT DRESS",
+        "catagory":"dress",
+        "price":"₹ 2,590.00"
+    },
+    {
+        "id":4,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/8469/322/800/13/w/281/8469322800_1_1_1.jpg?ts=1670432211885",
+        "name":"LONG PRINTED DRESS",
+        "catagory":"dress",
+        "price":"₹ 6,790.00"
+    },
+    {
+        "id":5,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/8514/056/800/2/w/281/8514056800_1_1_1.jpg?ts=1668771782048",
+        "name":"VELVET MINI DRESS",
+        "catagory":"dress",
+        "price":"₹ 4,990.00"
+    },{
+        "id":6,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/7978/911/330/2/w/281/7978911330_1_1_1.jpg?ts=1654516102825",
+        "name":"SHORT SATIN DRESS",
+        "catagory":"dress",
+        "price":"₹ 5,900.00"
+    },{
+        "id":7,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/6895/221/330/2/w/281/6895221330_1_1_1.jpg?ts=1668705087123",
+        "name":"LONG PRINTED DRESS",
+        "catagory":"dress",
+        "price":"₹ 3,990.00"
+    },{
+        "id":8,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/4786/284/800/2/w/281/4786284800_1_1_1.jpg?ts=1664536992339",
+        "name":"LACE MIDI DRESS",
+        "catagory":"dress",
+        "price":"₹ 5,390.00"
+    },{
+        "id":9,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/8759/362/251/2/w/281/8759362251_1_1_1.jpg?ts=1660727370421",
+        "name":"VELVET SHIRT DRESS",
+        "catagory":"dress",
+        "price":"₹ 5,490.00"
+    },{
+        "id":10,
+        "img":"https://static.zara.net/photos///2022/I/0/1/p/1971/172/098/2/w/281/1971172098_1_1_1.jpg?ts=1660721863051",
+        "name":"CONTRAST SEQUIN DRESS",
+        "catagory":"dress",
+        "price":"₹ 5,890.00"
+    }
+],
+"Shoes":[
+    {
+        "id":1,
+        "img":"https://m.media-amazon.com/images/I/61ePa5fEKnL._AC_UL320_.jpg",
+        "name":"CAMPUS RUNNING SHOES",
+        "catagory":"Shoes",
+        "price":500,
+        "size": 5
+    },
+    {
+        "id":2,
+        "img":"https://m.media-amazon.com/images/I/71UDBmG9kbL._AC_UL320_.jpg",
+        "name":"CAMPUS JOGGING SHOES",
+        "catagory":"Shoes",
+        "price":499,
+        "size": 6
+    },
+    {
+        "id":3,
+        "img":"https://m.media-amazon.com/images/I/61utX8kBDlL._AC_UL320_.jpg",
+        "name":"ASIAN SHOES",
+        "catagory":"Shoes",
+        "price": 499,
+        "size": 7
+    },
+    {
+        "id":4,
+        "img":"https://m.media-amazon.com/images/I/71kfO4VXDFL._UX395_.jpg",
+        "name":"ADDIDAS",
+        "catagory":"Shoes",
+        "price":2099,
+        "size": 5
+    },
+    {
+        "id":5,
+        "img":"https://m.media-amazon.com/images/I/61jbLbXriAL._AC_UL320_.jpg",
+        "name":"AMICO",
+        "catagory":"Shoes",
+        "price": 599,
+        "size": 6
+    },
+    {
+        "id":6,
+        "img":"https://m.media-amazon.com/images/I/81uMdMRLB-L._AC_UL320_.jpg",
+        "name":"SPARX SHOES",
+        "catagory":"Shoes",
+        "price":963,
+        "size": 7
+    },
+    {
+        "id":7,
+        "img":"https://m.media-amazon.com/images/I/81S1E1Dr-BL._AC_UL320_.jpg",
+        "name":"WORLD WEAR FOOTWEAR",
+        "catagory":"Shoes",
+        "price":309,
+        "size": 5
+    },
+    {
+        "id":8,
+        "img":"https://m.media-amazon.com/images/I/81g0Wb-oANL._AC_UL320_.jpg",
+        "name":"ASIAN SHOES",
+        "catagory":"Shoes",
+        "price": 526,
+        "size": 6
+    },
+    {
+        "id":9,
+        "img":"https://m.media-amazon.com/images/I/61Z4f7XkawL._AC_UL320_.jpg",
+        "name":"CAMPUS RUNNING SHOES",
+        "catagory":"Shoes",
+        "price": 895,
+        "size": 7
+    },
+    {
+        "id":10,
+        "img":"https://m.media-amazon.com/images/I/91C8pdgataL._AC_UL320_.jpg",
+        "name":"AADI",
+        "catagory":"Shoes",
+        "price":299,
+        "size": 5
+    },
+    {
+        "id":11,
+        "img":"https://m.media-amazon.com/images/I/41mWz2aRrTL._AC_UL320_.jpg",
+        "name":"ASIAN",
+        "catagory":"Shoes",
+        "price": 509,
+        "size": 6
+    },
+    {
+        "id":12,
+        "img":"https://m.media-amazon.com/images/I/41dXa2CVvPL._AC_UL320_.jpg",
+        "name":"REEBOK SHOES",
+        "catagory":"Shoes",
+        "price": 1099,
+        "size": 7
+    },
+    {
+        "id":13,
+        "img":"https://m.media-amazon.com/images/I/71bAepMLVVL._AC_UL320_.jpg",
+        "name":"KARASA SHOES",
+        "catagory":"Shoes",
+        "price": 569,
+        "size": 5
+    },
+    {
+        "id":14,
+        "img":"https://m.media-amazon.com/images/I/71fC87DbLHL._AC_UL320_.jpg",
+        "name":"BOURGE",
+        "catagory":"Shoes",
+        "price": 599,
+        "size": 6
+    },
+    {
+        "id":15,
+        "img":"https://m.media-amazon.com/images/I/71ZSYJXb0GL._AC_UL320_.jpg",
+        "name":"CORSTYLE",
+        "catagory":"Shoes",
+        "price": 599,
+        "size": 7
+    }
+],
+"Bottomwear":[
+    {
+        "id":1,
+        "img":"https://m.media-amazon.com/images/I/51XLVpbMvlL._AC_UL320_.jpg",
+        "name":"GENERIC",
+        "catagory":"jeans",
+        "price": 599,
+        "size":"X"
+    },
+    {
+        "id":2,
+        "img":"https://m.media-amazon.com/images/I/61R11o1DC+S._AC_UL320_.jpg",
+        "name":"ENDEAVOUR WEAR",
+        "catagory":"jeans",
+        "price": 499,
+        "size":"X"
+    },
+    {
+        "id":3,
+        "img":"https://m.media-amazon.com/images/I/61KeCcAj81L._AC_UL320_.jpg",
+        "name":"NOBERO",
+        "catagory":"jeans",
+        "price": 799,
+        "size":"XL"
+    },
+    {
+        "id":4,
+        "img":"https://m.media-amazon.com/images/I/61OEaHKYfPL._AC_UL320_.jpg",
+        "name":"NEVER LOSE",
+        "catagory":"jeans",
+        "price": 499,
+        "size":"X"
+    },
+    {
+        "id":5,
+        "img":"https://m.media-amazon.com/images/I/51zUzJpOR3L._AC_UL320_.jpg",
+        "name":"STYLE N FEEL",
+        "catagory":"jeans",
+        "price": 599,
+        "size":"L"
+    },
+    {
+        "id":6,
+        "img":"https://m.media-amazon.com/images/I/51ZCWkjopGL._AC_UL320_.jpg",
+        "name":"TWIST 99",
+        "catagory":"jeans",
+        "price":  785,
+        "size":"XL"
+    },
+    {
+        "id":7,
+        "img":"https://m.media-amazon.com/images/I/81Jt5IzgmcL._AC_UL320_.jpg",
+        "name":"REGAL TREASURE",
+        "catagory":"jeans",
+        "price": 399,
+        "size":"X"
+    },
+    {
+        "id":8,
+        "img":"https://m.media-amazon.com/images/I/71bYQOQ7CEL._AC_UL320_.jpg",
+        "name":"VEGO",
+        "catagory":"jeans",
+        "price": 650,
+        "size":"L"
+    },
+    {
+        "id":9,
+        "img":"https://m.media-amazon.com/images/I/618f+7rFIHL._AC_UL320_.jpg",
+        "name":"LAPPEN FASHION",
+        "catagory":"jeans",
+        "price": 499,
+        "size":"XL"
+    },
+    {
+        "id":10,
+        "img":"https://m.media-amazon.com/images/I/71gPFl7U--L._AC_UL320_.jpg",
+        "name":"BUGA BEAR",
+        "catagory":"jeans",
+        "price": 399,
+        "size":"X"
+    },
+    {
+        "id":11,
+        "img":"https://m.media-amazon.com/images/I/71Auj0YnFLL._AC_UL320_.jpg",
+        "name":"EASY TO WEAR",
+        "catagory":"jeans",
+        "price": 999,
+        "size":"L"
+    },
+    {
+        "id":12,
+        "img":"https://m.media-amazon.com/images/I/71av0TP8UkL._AC_UL320_.jpg",
+        "name":"VEGO",
+        "catagory":"jeans",
+        "price": 650,
+        "size":"XL"
+    },
+    {
+        "id":13,
+        "img":"https://m.media-amazon.com/images/I/315WYlXgc-L._AC_UL320_.jpg",
+        "name":"CW",
+        "catagory":"jeans",
+        "price": 599,
+        "size":"X"
+    },
+    {
+        "id":14,
+        "img":"https://m.media-amazon.com/images/I/51Lzx9zyHhL._AC_UL320_.jpg",
+        "name":"U>S POLO ASSN.",
+        "catagory":"jeans",
+        "price": 629,
+        "size":"L"
+    },
+    {
+        "id":15,
+        "img":"https://m.media-amazon.com/images/I/71Xgjt3+SPL._AC_UL320_.jpg",
+        "name":"EPOXY",
+        "catagory":"jeans",
+        "price": 449,
+        "size":"XL"
+    }
+],
+"womenBottomwear":[
+    {
+        "id":1,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/i/9/b/free-mirchi-combo-palazzo-presha-original-imaghvmtg4vfuhfq.jpeg?q=70",
+        "name":"Presha",
+        "catagory":"palazzos",
+        "price":5990,
+        "color":"red",
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },
+    {
+        "id":2,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/a/7/32-1-button-highrise-black-tyffyn-original-imafpanyfbbmvkhg-bb.jpeg?q=70",
+        "name":"TYFFYN",
+        "catagory":"jeans",
+        "price":3990,
+        "color":"green",
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    },
+    {
+        "id":3,
+        "img":"https://rukminim1.flixcart.com/image/612/612/kyoqmq80/salwar/l/b/c/xs-139sjdht-fab-queens-original-imagav95u53suzbn.jpeg?q=70",
+        "name":"FAB QUEENS",
+        "catagory":"patialas",
+        "price":2590,
+        "color":"blue",
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },
+    {
+        "id":4,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/i/l/w/s-gf20-gurara-fashion-original-imagdmzktbwwynfh-bb.jpeg?q=70",
+        "name":"Gurara Fashion",
+        "catagory":"palazzos",
+        "price":6790,
+        "color":"green",
+        "rating":"🌟🌟🌟⭐⭐",
+        "rate":"3/5"
+    },
+    {
+        "id":5,
+        "img":"https://rukminim1.flixcart.com/image/612/612/l4rd0280/jean/v/9/w/34-gtladiesjeans100-guti-original-imagfkygvexvfzmw.jpeg?q=70",
+        "name":"GUTI",
+        "catagory":"jeans",
+        "price":4990,
+        "color":"orange",
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    },{
+        "id":6,
+        "img":"https://rukminim1.flixcart.com/image/612/612/kyoqmq80/salwar/l/b/c/xs-139sjdht-fab-queens-original-imagav95u53suzbn.jpeg?q=70",
+        "name":"FAB QUEENS",
+        "catagory":"patialas",
+        "color":"white",
+        "price":5900,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },{
+        "id":7,
+        "img":"https://rukminim1.flixcart.com/image/612/612/k5y7tzk0/trouser/b/2/r/free-maroon-pihuda-original-imafjrb9yhsdrzyy.jpeg?q=70",
+        "name":"Deklook",
+        "catagory":"palazzos",
+        "price":3990.00,
+        "color":"gray",
+        "rating":"🌟🌟🌟⭐⭐",
+        "rate":"3/5"
+    },{
+        "id":8,
+        "img":"https://rukminim1.flixcart.com/image/612/612/k0flmkw0/patiala/2/r/x/free-p3004-ikhlas-original-imafk89pgpgpgqub.jpeg?q=70",
+        "name":"IKHLAS",
+        "catagory":"patialas",
+        "price":5390,
+        "color":"black",
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    },{
+        "id":9,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/jean/j/2/o/26-jeans-l-blue-6-zayla-original-imagkg2ymfnq43gf.jpeg?q=70",
+        "name":"Zayla",
+        "catagory":"jeans",
+        "price":5490,
+        "color":"white",
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },{
+        "id":10,
+        "img":"https://rukminim1.flixcart.com/image/612/612/kk2wl8w0/patiala/h/c/x/xl-patialacotton-white-01-raiment-original-imaf6zuawg2dzvjx.jpeg?q=70",
+        "name":"Ethniclobby",
+        "catagory":"patialas",
+        "price":5890,
+        "color":"black",
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    }
+],
+"womenTopwear":[
+    {
+        "id":1,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/top/6/u/m/xxl-shinched-thundercreation-original-imaggst8khew8kw2.jpeg?q=70",
+        "name":"Medium Frock Type Top",
+        "catagory":"tops",
+        "color":"red",
+        "price":5990,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },
+    {
+        "id":2,
+        "img":"https://rukminim1.flixcart.com/image/612/612/kflftzk0-0/shirt/c/b/k/m-sfshrt2008-sassafras-original-imafwyffsztz5hbr.jpeg?q=70",
+        "name":"Green Stylish Shirt",
+        "catagory":"shirt",
+        "color":"green",
+        "price":3990,
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    },
+    {
+        "id":3,
+        "img":"https://rukminim1.flixcart.com/image/612/612/k2tc1ow0pkrrdj/top/m/6/d/m-t574-the-style-story-original-imafkhjsdsncghkz.jpeg?q=70",
+        "name":"Casual Blue Top",
+        "catagory":"tops",
+        "color":"blue",
+        "price":2590,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },
+    {
+        "id":4,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/u/o/7/l-329tk258-selvia-original-imaghughzragp2f3.jpeg?q=70",
+        "name":"Professional type shirt",
+        "catagory":"shirt",
+        "color":"green",
+        "price":6790,
+        "rating":"🌟🌟🌟⭐⭐",
+        "rate":"3/5"
+    },
+    {
+        "id":5,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/top/h/u/y/s-bj-top367-hanumntra-original-imagmhjffsuh3j3h.jpeg?q=70",
+        "name":"Orange Frock Type Top",
+        "catagory":"tops",
+        "color":"orange",
+        "price":4990,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },{
+        "id":6,
+        "img":"https://rukminim1.flixcart.com/image/612/612/kj4m0sw0-0/shirt/f/0/a/m-117tkr2633-selvia-original-imafyrjbkxsy8ztz.jpeg?q=70",
+        "name":" White Professional shirt",
+        "catagory":"shirt",
+        "color":"white",
+        "price":5900,
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    },{
+        "id":7,
+        "img":"https://rukminim1.flixcart.com/image/612/612/k3dc7m80/top/g/r/a/xs-gbk1165-god-bless-original-imafmhswbqdygtdv.jpeg?q=70",
+        "name":"Gray Frock",
+        "catagory":"tops",
+        "color":"gray",
+        "price":3990.00,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },{
+        "id":8,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/v/p/6/m-sys-4001-funday-fashion-original-imafvynfzrutn2s2-bb.jpeg?q=70",
+        "name":"Black Casual Shirt",
+        "catagory":"shirt",
+        "color":"black",
+        "price":5390,
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    },{
+        "id":9,
+        "img":"https://rukminim1.flixcart.com/image/612/612/kixgtjk0-0/shirt/0/a/w/s-ttsh000981-tokyo-talkies-original-imafymesxxz6zc2n.jpeg?q=70",
+        "name":"White Casual Shirt",
+        "catagory":"shirt",
+        "color":"white",
+        "price":5490,
+        "rating":"🌟🌟🌟⭐⭐",
+        "rate":"3/5"
+    },{
+        "id":10,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/r/i/q/s-329tk253-selvia-original-imagkxetgtpzxpn2.jpeg?q=70",
+        "name":"Black Professional shirt",
+        "catagory":"shirt",
+        "color":"black",
+        "price":5890,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    }
+],
+"handbags":[
+    {
+        "id":1,
+        "img":"https://rukminim1.flixcart.com/image/612/612/kjuby4w0/hand-messenger-bag/q/b/p/fashion-stylish-casual-college-formal-office-shoulder-bag-original-imafzbjtrhs6jngw.jpeg?q=70",
+        "name":"Tote Bag",
+        "catagory":"Totes",
+        "color":"brown",
+        "price":520,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },
+    {
+        "id":2,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/hand-messenger-bag/r/m/e/af-30-11-af-30-shoulder-bag-ankita-fashion-world-26-original-imaf57ghhkkhgdyh.jpeg?q=70",
+        "name":"Short Pink Bag",
+        "catagory":"Totes",
+        "color":"pink",
+        "price":249,
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    },
+    {
+        "id":3,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/hand-messenger-bag/t/a/c/-original-imaggbwdzhzygtdh.jpeg?q=70",
+        "name":"Brown Tote Bag",
+        "catagory":"Totes",
+        "color":"brown",
+        "price":471,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },
+    {
+        "id":4,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/hand-messenger-bag/d/a/x/-original-imagg7fqyxnmgq8e.jpeg?q=70",
+        "name":"Black Party Bag",
+        "catagory":"Totes",
+        "color":"black",
+        "price":351,
+        "rating":"🌟🌟🌟⭐⭐",
+        "rate":"3/5"
+    },
+    {
+        "id":5,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/hand-messenger-bag/v/w/v/fgo-518-33-fgo-518-shoulder-bag-fargo-30-original-imaghvsbennfu8wz.jpeg?q=70",
+        "name":"Maroon Party Bag",
+        "catagory":"Totes",
+        "color":"brown",
+        "price":360,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },{
+        "id":6,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/shopsy-hand-messenger-bag/k/m/c/11puhdb56-1-11puhdb56-1-hobo-shopglobal-women-original-imaggjfxzgyhpxhk.jpeg?q=70",
+        "name":"Black Tote Bag",
+        "catagory":"Totes",
+        "color":"black",
+        "price":448,
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    },{
+        "id":7,
+        "img":"https://rukminim1.flixcart.com/image/612/612/l1dwknk0/hand-messenger-bag/v/u/c/combo-hand-bag-set-for-girls-women-hand-bags-women-style-ladies-original-imagczyzcju2pcfb.jpeg?q=70",
+        "name":"Blue Short Bag",
+        "catagory":"Totes",
+        "color":"green",
+        "price":515,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },{
+        "id":8,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/hand-messenger-bag/i/g/z/-original-imaggbwdh6z7quxc.jpeg?q=70",
+        "name":"Green Casual Bag",
+        "catagory":"Totes",
+        "color":"green",
+        "price":266,
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    },{
+        "id":9,
+        "img":"https://rukminim1.flixcart.com/image/612/612/k7qinbk0/hand-messenger-bag/g/f/g/trendy-and-durable-ect-012-shoulder-bag-element-cart-original-imafpwmcfqrzk47h.jpeg?q=70",
+        "name":"White Shoulder Bag",
+        "catagory":"Totes",
+        "color":"white",
+        "price":296,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },{
+        "id":10,
+        "img":"https://rukminim1.flixcart.com/image/612/612/l1fc0i80/hand-messenger-bag/i/a/p/long-hand-shoulder-bags-self-deigine-12-113-shoulder-bag-original-imagdy2ygmh5hwry.jpeg?q=70",
+        "name":"Pink Shoulder Bag",
+        "catagory":"Totes",
+        "color":"pink",
+        "price":500,
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    }
+],
+"womenShoes":[
+    {
+        "id":1,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/sandal/m/g/w/8-76-7736-golden-8-racecourse-gold-original-imaggdahtyc77xre.jpeg?q=70",
+        "name":"Women Sandals",
+        "catagory":"Mules & Slides",
+        "color":"gold",
+        "price":1024,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },
+    {
+        "id":2,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/sandal/t/c/t/ft-501-fashion-tails-black-original-imafwyfy9sznkdxq-bb.jpeg?q=70",
+        "name":"Block Heels",
+        "catagory":"Mules & Slides",
+        "color":"black",
+        "price":249,
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    },
+    {
+        "id":3,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/sandal/1/x/p/-original-imaghxfk9ycwpab7.jpeg?q=70",
+        "name":"women Textured Block Pumps",
+        "catagory":"Mules & Slides",
+        "color":"black",
+        "price":471,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },
+    {
+        "id":4,
+        "img":"https://rukminim1.flixcart.com/image/612/612/kjbr8280-0/sandal/q/y/z/8-fs-161-41-footster-gold-original-imaff2qkvmtkmyky.jpeg?q=70",
+        "name":"Gold Color Sandlas",
+        "catagory":"Mules & Slides",
+        "color":"gold",
+        "price":351,
+        "rating":"🌟🌟🌟⭐⭐",
+        "rate":"3/5"
+    },
+    {
+        "id":5,
+        "img":"https://rukminim1.flixcart.com/image/612/612/kp4difk0/sandal/g/h/9/3-a2013-3-saba-collection-black-original-imag3fhtx2puzfhd.jpeg?q=70",
+        "name":"Printed Heels",
+        "catagory":"Mules & Slides",
+        "color":"black",
+        "price":360,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },{
+        "id":6,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/sandal/d/z/m/-original-imaghxfmhfzfkhmd.jpeg?q=70",
+        "name":"white Block Pumps",
+        "catagory":"Mules & Slides",
+        "color":"white",
+        "price":448,
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    },{
+        "id":7,
+        "img":"https://rukminim1.flixcart.com/image/612/612/xif0q/sandal/2/8/h/4-h-hb21-denill-brown-original-imagghqzzccaruzv.jpeg?q=70",
+        "name":"Brown Block Pumps",
+        "catagory":"Mules & Slides",
+        "color":"brown",
+        "price":515,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },{
+        "id":8,
+        "img":"https://rukminim1.flixcart.com/image/612/612/kylvr0w0/sandal/x/x/p/5-sr-h-h4-sirdenill-brown-original-imagatfjtzq7yfnd.jpeg?q=70",
+        "name":"Brown Heels",
+        "catagory":"Mules & Slides",
+        "color":"brown",
+        "price":266,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    },{
+        "id":9,
+        "img":"https://rukminim1.flixcart.com/image/612/612/kka1si80/sandal/8/t/l/8-vsfw0166-41-vishudh-white-original-imafznsfnzztyz26.jpeg?q=70",
+        "name":"white flatform",
+        "catagory":"Mules & Slides",
+        "color":"white",
+        "price":296,
+        "rating":"🌟🌟🌟🌟⭐",
+        "rate":"4/5"
+    },{
+        "id":10,
+        "img":"https://rukminim1.flixcart.com/image/612/612/kgmla4w0-0/sandal/u/k/k/pt-g241-35-picktoes-black-original-imafwthr6tfwfgkv.jpeg?q=70",
+        "name":"Black Heels",
+        "catagory":"Mules & Slides",
+        "color":"black",
+        "price":500,
+        "rating":"🌟🌟🌟🌟🌟",
+        "rate":"5/5"
+    }
+]
+
+}

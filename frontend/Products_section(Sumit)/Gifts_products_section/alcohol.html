@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* top navbar part */
+/* top navbar part */
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin: 0;
+}
+
+
+.left img{
+    width: 100px;
+    height: 95px;
+}
+.left{
+  margin-top: -30px;
+  margin-top: 0px;
+}
+
+#top{
+    /* border: 2px solid red; */
+    display: flex;
+    
+}
+.center{
+    margin: auto;
+    font-size: 26px;
+    font-family:serif;
+
+}
+
+.right{
+    /* border:2px solid red ; */
+    /* width: 400px; */
+   
+}
+.right img{
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+}
+.navbar {
+    overflow: hidden;
+    /* background-color: #333;  */
+    /* position :fixed; */
+    border-bottom: 3px solid black;
+    margin-top: -31px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+.subnav .subnavbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    font-weight: 600;
+    /* color: white; */
+    padding: 14px 16px;
+    background-color: inherit;
+    /* font-family: inherit; */
+    margin: 0;
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color:white;
+    text-decoration: underline;
+   
+}
+.navbar:hover{
+    background-color: white;
+}
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color:whitesmoke;
+    width: 100%;
+    z-index: 1;
+}
+.subnav-content a {
+    float: none;
+    color: black;
+    /* font-weight: 900; */
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.subnav-content li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  
+}
+.subnav:hover .subnav-content {
+    display: block;
+}
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+/* top navigation part css */
+    </style>
+    <style>
+         
+        #main{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            column-gap: 10px;
+            row-gap: 20px;
+            margin-top: 1cm;
+            margin-left: 5%;
+            width: 75%;
+        }
+        #main>div img{
+            width: 90%;
+            height: 50%;
+        }
+        #main>div{
+            margin: auto;
+            padding: 10px;
+            width: 100%;
+            height: 500px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        }
+        .cart-button{
+            padding: 5px;
+            font-size: x-large;
+            margin-left: 20%;
+            color: white;
+            background-color: black;
+            border-radius: 5px;
+        }
+        #conatiner{
+            display: flex;
+            justify-content: space-evenly;
+            width: 95%;
+            margin: auto;
+            text-align: center;
+        }
+        #conatiner>div:nth-child(1){
+            width: 20%;
+            margin-top: 6cm;
+            margin-left: 2cm;
+        }
+        #conatiner>div:nth-child(2){
+            width: 100%;
+        }
+        #function>div:nth-child(2){
+            margin-top: 50px;
+        }
+        #function select{
+            padding: 10px;
+            border-radius: 5px;
+            border:1px solid black;
+        }
+        #image-top{
+            margin-top: 1cm;
+        }
+        #image-top>img{
+            width: 90%;
+            margin-left: 6%;
+        }
+        @media screen and (min-width:800px) and (max-width:1100px){
+            #main{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+        @media screen and (min-width:100px) and (max-width:799px){
+            #main{
+                grid-template-columns: repeat(1,1fr);
+            }
+            #conatiner{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        
+    </style>
+    <style>
+
+        #foot{
+    /* border: 2px solid black; */
+    display: flex;
+    background-color:#c0c9cf;
+    margin-top: 50px;
+   
+}
+.f{
+    margin-top:5px ;
+    margin: auto;
+    
+}
+.f img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.last{
+    text-align: center;
+    margin-top :25px; ;
+
+}
+.last p{
+    font-family:  Garamond, serif;
+
+}
+    </style>
+</head>
+<body>
+    <!-- top navigation part -->
+    <div id="top">
+        <div class="left">
+          <a href="/index.html">
+            <img herf="/index.html"  src="IMG-20230221-WA0009.jpg" alt="">
+            <!-- <h1>Shopping Zone</h1> -->
+          </a>
+        </div>
+        <div class="center">
+          <h1>SHOPPING ZONE</h1>
+        </div>
+        
+        <div class="right">
+            <img  src="https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-person-user-19.png" alt="">
+            <a href="/cart.html">
+            <img  src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/shop-pict-basket_add.png" alt="">
+            </a>
+        </div>
+       </div>
+       
+      <div class="navbar">
+          
+          <div class="subnav">
+            <button class="subnavbtn">WOMEN <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="/products(Rucchi)/womens/womenSection.html">
+              <ul>
+                <li>Clothing</li>
+                <li>Active & Workout</li>
+                <li>Blazer</li>
+                <li>Cashmere</li>
+                <li>Coats & Jackets</li>
+                <li>Dresses</li>
+                <li>Jeans & Denim</li>
+                <li>Jumpsuits & Rompers</li>
+                <li>Loungwear</li>
+                <li>Maternity</li>
+                <li>Pants & leggings</li>
+              </ul>
+              </a>
+            </div>
+          </div> 
+          <div class="subnav">
+            <button class="subnavbtn">SHOES <i class="fa fa-caret-down"></i></button>
+            
+            <div class="subnav-content">
+              <a href="/products(Rucchi)/Shoes/shoesSection.html">
+              <ul>
+                <li> New & Noteworthy</li>
+                <li> New Arrivals</li>
+                <li>best sellers</li>
+                <li>shoes under $200</li>
+                <li>150th Anniversary Exclusives</li>
+                <li>Designer Boutique</li>
+                <li>spring trends</li>
+                <li>shoes by style</li>
+                <li> all shoes</li>
+                <li>Ankle Boots & Booties</li>
+                <li>boots</li>
+                <li>comfort</li>
+                <li>Espadrilles</li>
+                <li>Evening & Wedding </li>
+                <li>Flats</li>
+                <li>Loafer & Oxfords</li>
+                <li>mules & Slider</li>
+                <li>Pumps</li>
+                <li>Sandals</li>
+                <li>slippers</li>
+                <li>sneakers</li>
+                <li>Wedger & Platforms</li>
+                <li>Winter & Snow Boots</li>
+              </ul>
+             </a>
+            </div>
+          </div> 
+          <div class="subnav">
+            <button class="subnavbtn">HANDBAGS <i class="fa fa-caret-down"></i></button>
+            
+            <div class="subnav-content">
+              <a href="/products(Rucchi)/Handbag/handbagSection.html">
+              <ul>
+                <li>New & Noteworthy</li>
+                <li>New Arrivals</li>
+                <li>Handbags under $200</li>
+                <li>150th Anniversary Exclusives</li>
+                <li>Designer Boutique</li>
+                <li>Advanced Contemporary</li>
+                <li>Spring Trends</li>
+                <li>All Handbags & Weeenders</li>
+                <li>Beach Bags</li>
+                <li>Belt Bags </li>
+                <li>Clutches</li>
+                <li>Crossbody Bags</li>
+                <li>Mini Bags</li>
+                <li>Shoulder Bags</li>
+                <li>Totes</li>
+                <li>Wallets & Top Handle Bags</li>
+                <li>Chloe Woody</li>
+                <li>Handbags:20-50% Off</li>
+                <li>Tory Burch:30% Off</li>
+              </ul>
+              </a>
+            </div>
+          </div>
+          <div class="subnav">
+              <button class="subnavbtn">JEWELRY & ACCESSORIES <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <ul>
+                  <li>Sales & Clearance</li>
+                  <li>Shop All</li>
+                  <li>Jewelry</li>
+                  <li>Bracelets</li>
+                  <li>Earrings</li>
+                  <li>Necklaces</li>
+                  <li>Rings</li>
+                  <li>Luxury Watches</li>
+                  <li>Smart Watches</li>
+                  <li>Under $200 </li>
+                  <li>Sunglasses</li>
+                  <li>Luxury Sunglasses</li>
+                  <li>Reading & Blue Light Glasses</li>
+                  <li>Belts</li>
+                  <li>Hair Accessories</li>
+                  <li>Gloves</li>
+                  <li>Hats</li>
+                  <li>Scarves & Wraps</li>
+                  <li>Tech Accessories & Cases</li>
+                </ul>
+              </div>
+            </div>
+            <div class="subnav">
+              <button class="subnavbtn">MEN <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <a href="/Products_section(Sumit)/Mens_products_section/Mens_landing.html">
+                <ul>
+                  <li>Clothing</li>
+                  <li>Active & Workout</li>
+                  <li>Blazers & Sport Coats</li>
+                  <li>Cashmere</li>
+                  <li>Casual Button-Down Shirts</li>
+                  <li>Coats & Jackets</li>
+                  <li>Dress Shirts</li>
+                  <li>Hoodies & Sweatshirts</li>
+                  <li>Jeans & Denium</li>
+                  <li>Pajamas,Loungewear </li>
+                  <li>Pants</li>
+                  <li>Polos</li>
+                  <li>Shorts</li>
+                  <li>Suit & Tuxedos</li>
+                  <li>Swim</li>
+                  <li>T-shirts</li>
+                  <li>Socks</li>
+                  <li>Boots</li>
+                  <li>Clogs & Mules</li>
+                </ul>
+                </a>
+              </div>
+            </div>
+            <div class="subnav">
+              <button class="subnavbtn">KIDS <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <a href="/Products_section(Sumit)/Kids_products_section/Kids_landing_page.html">
+                <ul>
+                  <li>Girls</li>
+                  <li>Girls 2-6X</li>
+                  <li>Girls 7-16</li>
+                  <li>Juniors</li>
+                  <li>Dresses & Rompers</li>
+                  <li>Boys</li>
+                  <li>Boys 2-7</li>
+                  <li>Boys 8-20</li>
+                  <li>Button-Downs & Dress Shirts</li>
+                  <li>Jeans </li>
+                  <li>Coats & Jackets</li>
+                  <li>Girls 2-16</li>
+                  <li>Boys 2-20</li>
+                  <li>Strollers</li>
+                  <li>Car Seats</li>
+                  <li>Diaper Bags</li>
+                  <li>Bathing</li>
+                  <li>Baby Shower</li>
+                  <li>Feeding</li>
+                </ul>
+                </a>
+              </div>
+            </div>
+            <div class="subnav">
+              <button class="subnavbtn">HOME <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <ul>
+                  <li>Bath </li>
+                  <li>Bathroom Decor & Accessories</li>
+                  <li>Towels</li>
+                  <li>Luxury Bath</li>
+                  <li>Bedding</li>
+                  <li>Bedding Collections</li>
+                  <li>Bedding Essentials</li>
+                  <li>Quilts & Coverlets</li>
+                  <li>Sheets</li>
+                  <li>Luxury Bedding </li>
+                  <li>Luggage & Travel</li>
+                  <li>Luggage</li>
+                  <li>Travel Bags</li>
+                  <li>Travel Accessories</li>
+                  <li>Dinnerware</li>
+                  <li>Drinware</li>
+                  <li>Flatware</li>
+                  <li>Serveware</li>
+                  <li>Bakeware</li>
+                </ul>
+              </div>
+            </div>
+            <div class="subnav">
+              <button class="subnavbtn">SALES <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <ul>
+                  <li>Women</li>
+                  <li>Active & Workout</li>
+                  <li>Cashmere</li>
+                  <li>Dresses</li>
+                  <li>Jeans & Denim</li>
+                  <li>Pants & Leggings</li>
+                  <li>Sleepwear</li>
+                  <li>Tops</li>
+                  <li>Shoes</li>
+                  <li>Boots </li>
+                  <li>Flats</li>
+                  <li>Pumps</li>
+                  <li>Flats</li>
+                  <li>Pumps</li>
+                  <li>Sandals</li>
+                  <li>slippers</li>
+                  <li>sneakers</li>
+                  <li>Coats</li>
+                  <li>Jeans</li>
+                </ul>
+              </div>
+            </div>
+            <div class="subnav">
+              <button class="subnavbtn">DESIGNER <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <ul>
+                  <li>Featured Designers</li>
+                  <li>AQUA</li>
+                  <li>Ferragamo</li>
+                  <li>Maje</li>
+                  <li>Sandro</li>
+                  <li>Theory</li>
+                  <li>Tory Burch</li>
+                  <li>Vince</li>
+                  <li>Baimain</li>
+                  <li>Boil & Branch </li>
+                  <li>Versace</li>
+                  <li>Handbags</li>
+                  <li>Pre=Order</li>
+                  <li>Yaura</li>
+                  <li>Andrea lyamah</li>
+                </ul>
+              </div>
+            </div>
+            <div class="subnav">
+              <button class="subnavbtn">GIFTS <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <a href="/Products_section(Sumit)/Gifts_products_section/Gifts_landing_page.html">
+                <ul>
+                  <li>Our Best Gifts </li>
+                  <li>For Her</li>
+                  <li>For Him</li>
+                  <li>For kids</li>
+                  <li>For the Home</li>
+                  <li>Luxe Gifts</li>
+                  <li>Under $100</li>
+                  <li>Gifts by Occasion</li>
+                  <li>Wedding</li>
+                  <li>Engagenment </li>
+                  <li>Baby Shower</li>
+                  <li>Housewarming</li>
+                  <li>Family Matching</li>
+                  <li>Tech</li>
+                  <li>Shop Now</li>
+                </ul>
+                </a>
+              </div>
+            </div>
+        </div>
+      <!-- top navigation part -->
+      <div id="image-top">
+        <img src="https://img.freepik.com/free-vector/sommelier-party-cartoon-landing-page_107791-6248.jpg" alt="">
+    </div>
+        <div id="conatiner">
+            <div id="function">
+                <div>
+                    <label for="cost">Sort by Price</label>
+                    <br>
+                    <select name="cost" id="sort-price">
+                        <option value="All">All</option>
+                        <option value="L2H">Low To High</option>
+                        <option value="H2L">High To Low</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="size">Filter By Size</label>
+                    <br>
+                    <select name="size" id="sort-size">
+                       <option value="All">All</option>
+                       <option value="Quarter">Quarter</option>
+                       <option value="Medium">Medium</option>
+                       <option value="Large">Large</option>
+                    </select>
+                </div>
+            </div>
+            <div id="main">
+
+            </div>
+        </div>
+        <footer id="foot">
+            <div class="f">
+              <p><b>CUSTOMER SERVICES</b></p>
+              <p>1-800-777-0000</p>
+              <p>FAQs & Help</p>
+              <p>Visitor Services</p>
+              <!-- <p>Domestic Site FAQs</p> -->
+            </div>
+            <div class="f">
+              <p><b>YOUR ORDER</b></p>
+              <p>Order Status & History</p>
+              <p>Shipping Policy</p>
+              <p>Return & Exchanges</p>
+            </div>
+            <div class="f">
+              <p><b>ABOUT SHOPPING ZONE</b></p>
+              <p>About Us</p>
+              <p>b the change</p>
+              <p>Careers</p>
+            </div>
+            <div class="f">
+              <p><b>FOLLOW US</b></p>
+              <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="">
+              <img src="https://cdn-icons-png.flaticon.com/512/44/44646.png" alt="">
+              <img src="https://cdn-icons-png.flaticon.com/512/60/60543.png" alt="">
+              <img src="https://cdn-icons-png.flaticon.com/512/81/81609.png" alt="">
+            </div>
+            
+          </footer>
+          <div class="last">
+            <p>Terms of Use  |  Privacy  |  Dont Share My Personal Information  |  CA Privacy  |  CA Transparency in Supply Chains Act</p>
+            <p>Intrest Based Ads | Customer Bill of Right | Product Reccalls | Pricing Policy | <img src="/img/accessibility.svg" alt="error">Essential Accessibility</p>
+            <p>Shopping Zone 1000 Third Avenue New York ,NY 10022. Request our corporate name and address</p>
+            <p style="font-style:normal ; color: rgb(53, 53, 53);">like no other store in the world</p>
+          </div>
+</body>
+</html>
+<script>
+    let bag=[];
+    fetch('shop.json')
+  .then((response) => response.json())
+  .then((data) =>{
+    console.log(data.Alcohal);
+    bag=data.Alcohal;
+    displayData(data.Alcohal)
+  });
+  let main=document.querySelector("#main")
+  function displayData(data){
+    main.innerHTML=null;
+    data.forEach(function(elem){
+        let card=document.createElement("div");
+        let image=document.createElement("img");
+        image.setAttribute("src",elem.img);
+        let name= document.createElement("h3");
+        name.textContent=elem.name;
+        let price=document.createElement("p");
+        price.textContent="Rs:-"+elem.price;
+        let size=document.createElement("p");
+        size.textContent="size:-"+elem.size
+        let button=document.createElement("button");
+        button.textContent="Add To Cart";
+        button.addEventListener("click",()=>{
+            let BuyList=JSON.parse(localStorage.getItem("carddata"))||[];
+            let alreadyincart=false;
+            for(let i=0;i<BuyList.length;i++){
+                if(BuyList[i].name===elem.name){
+                    alreadyincart=true;
+                    break;
+                }
+            }
+            if(alreadyincart){
+                alert("Already in cart");
+            }else{
+                BuyList.push(elem);
+                localStorage.setItem("carddata",JSON.stringify(BuyList));
+                alert("Added in cart");
+            }
+        })
+        button.setAttribute("class","cart-button")
+        card.append(image,name,price,size,button);
+        main.append(card);
+    })
+  }
+  let sort=document.querySelector("#sort-price");
+  sort.addEventListener("change",()=>{
+    let val=document.querySelector("#sort-price").value;
+    if(val=="All"){
+      fetch('shop.json')
+      .then((response) => response.json())
+      .then((data) =>{
+       displayData(data.Alcohal)
+  });
+    }else if(val=="L2H"){
+        let sorted_value=bag.sort((a,b)=>{
+            return a.price-b.price;
+        });
+        displayData(sorted_value)
+        console.log(sorted_value)
+    }else if(val=="H2L"){
+        let sorted_value=bag.sort((a,b)=>{
+            return b.price-a.price;
+        });
+        displayData(sorted_value)
+        console.log(sorted_value)
+    }
+  });
+  let filter=document.querySelector("#sort-size");
+  filter.addEventListener("change",()=>{
+    let val=document.querySelector("#sort-size").value;
+    if(val=="All"){
+        displayData(bag);
+    }else if(val=="Quarter"){
+        let filtered_data=bag.filter(function(elem){
+            return elem.size=="Quarter";
+        });
+        displayData(filtered_data);
+    }else if(val=="Medium"){
+        let filtered_data=bag.filter(function(elem){
+            return elem.size=="Medium";
+        });
+        displayData(filtered_data)
+    }else if(val=="Large"){
+        let filtered_data=bag.filter(function(elem){
+            return elem.size=="Large";
+        });
+        displayData(filtered_data);
+    }
+})
+</script>
