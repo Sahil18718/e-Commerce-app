@@ -76,11 +76,11 @@
         <p> <a href="./homepage.html">Home</a> > <a href="">Create Account</a></p>
         <h3>Register</h3>
         <input type="text" id="firstname" placeholder="First Name">
-        <input type="text" id="Lastname" placeholder="Last Name">
+        <input type="text" id="lastname" placeholder="Last Name">
         <input type="email" id="email" placeholder="Email">
         <input type="pass" id="pass" placeholder="Password">
         <p>Sign up for early Sale access plus tailored new arrivals, trends<br>and promotions. To opt out, click unsubscribe in our emails</p>
-        <button id="register">Register</button>
+        <button onclick="onSignup()" id="register">Register</button>
         <a href="./signin.html"><button id="login">Login</button></a>
         
         <button id="google">Sign in with Google <img src="" alt=""></button>
@@ -134,6 +134,25 @@
     </div>
 </body>
 <script>
-    
+    const onSignup=()=>{
+        const payload={
+            firstname:document.getElementById("firstname").value,
+            lastname:document.getElementById("lastname").value,
+            email:document.getElementById("email").value,
+            pass:document.getElementById("pass").value,
+        }
+        fetch("http://localhost:5050/users/register",{
+            method:"POST",
+            headers:{
+                "Content-type":"application/json"
+            },
+            body:JSON.stringify(payload)
+        }).then(res=>res.json())
+        .then(res=>{
+            console.log(res)
+            window.location="./signin.html"
+        })
+        .catch(err=>console.log(err))
+    }
 </script>
 </html>
