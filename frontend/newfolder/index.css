@@ -75,6 +75,54 @@
 /* navbar */
 
 
+/* bottm part  */
+.bottom{
+  /* border: 2px solid black; */
+  margin-top: 20px;
+  display: flex;
+}
+.leftb{
+  /* border: 2px solid red; */
+  width: 50%;
+}
+.rightb{
+  /* border: 2px solid blue; */
+  width: 50%;
+}
+.leftb img{
+  margin-left: 40px;
+  width: 90%;
+  height: 90%;
+}
+.rightb img{
+  margin-left: 10px;
+  width: 90%;
+  height: 90%;
+}
+.feature{
+  margin-top: 50px; 
+  margin-left: 30px; 
+}
+/* BLACK OWNED AND FOUNDED BRANDS */
+h2{
+  margin-left: 25px;
+  margin-top: 80px;
+  font-weight: 900;
+}
+.brands{
+  /* border: 2px solid black; */
+  display:flex;
+}
+.pic{
+  /* border: 2px solid red; */
+  width: 210px;
+  margin: auto;
+  text-align: center;
+ 
+}
+.pic img{
+  width: 100%;
+}
 
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
