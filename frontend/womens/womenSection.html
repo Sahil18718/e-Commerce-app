@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women section</title>
+
+</head>
+<style>
+  *{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* women Top section css */
+
+.women_head{
+    width:90%;
+    margin: auto;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+#slider{
+    width:100%;
+    margin: auto;
+    height:50%;
+}
+#slider img{
+    width:100%;
+    
+}
+.top_div h1{
+    text-align: center;
+}
+.top_div > div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:15px;
+    margin-top: 10px;
+}
+.top_div > div div img{
+    width: 100%;
+    height:100%;
+    transition: calc(1.0s);
+
+}
+.top_div > div div p{
+    text-align: center;
+    color: black;
+
+}
+.top_div > div >div img:hover{
+    /* width: 100%; */
+    transform: scale(1.1);
+}
+
+
+/* women middle section css */
+
+.women_middle{
+    width: 90%;
+    margin: auto;
+}
+
+.mid_div >h2
+{
+    text-align: center;
+    margin: 50px 0px;
+    
+}
+.mid_div > div{
+
+    display: grid;
+    gap:15px;
+    grid-template-columns: repeat(5,1fr);
+    
+}
+.mid_div > div >div img{
+    width: 100%;
+    transition: calc(1.0s);
+}
+.mid_div > div >div img:hover{
+    transform: scale(1.1);
+}
+
+.mid_div > div >div{
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.mid_div > div div a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+}
+
+.mid_div > div div p{
+    text-align: center;
+    color: black;
+    
+}
+
+
+
+/* women bottom section css */
+
+.women_bottom{
+    width: 90%;
+    margin: auto;
+}
+
+.bottom_div >h2
+{
+    text-align: center;
+    margin: 50px 0px;
+}
+.bottom_div > div{
+
+    display: grid;
+    gap:15px;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.bottom_div > div >div img{
+    width: 100%;
+    /* height:60%; */
+
+}
+.bottom_div > div div a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+}
+
+.bottom_div > div div p{
+    text-align: center;
+    color: black;
+
+}
+
+/* ************************************************** */
+
+@media screen and (min-width: 480px) and (max-width:1024px) {
+
+/*  women top section media query */
+
+.women_head{
+    width:90%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.top_div h1{
+    text-align: center;
+}
+.top_div > div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:15px;
+    margin-top: 10px;
+}
+
+/*  women middle section media query */
+
+.women_middle{
+    width: 90%;
+    margin: auto;
+}
+
+.mid_div >h2
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.mid_div > div{
+
+    display: grid;
+    gap:5px;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+/*  women bottom section media query */    
+
+.women_bottom{
+    width: 90%;
+    margin: auto;
+}
+
+.bottom_div >h2
+{
+    text-align: center;
+    margin: 50px 0px;
+}
+.bottom_div > div{
+
+    display: grid;
+    gap:15px;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+}
+
+</style>
+<style>
+    /* top navbar part */
+  /* navbar */
+
+
+  .dropbtn {
+      background-color: white;
+      color: black;
+      padding: 10px;
+      font-size: 18px;
+      border: none;
+      margin-top: 18px;
+  }
+
+  .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+  .dropdown-content ul{   
+      font-family: Garamond;
+      color: #484747;
+  }
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .dropdown-content a:hover {
+      
+      background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+      background-color: white;
+  }
+
+  .brand h1{
+      font-family: 'Courier New', Courier, monospace;
+      margin-top: 20px;
+  }
+  .topnav{
+      display: flex;
+      
+  }
+
+  .brand{
+      margin-left:20% ;
+  }
+
+  .right{
+      display: flex;
+      /* justify-content: space-between; */
+      margin-left:28%;
+  }
+
+  .right img{
+    height: 30%;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  /* navbar */
+</style>
+ <!-- footer -->
+ <style>
+
+    #mainfooter{
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    #mainfooter h3{
+        margin-top: 50px;
+    }
+
+    #mainfooter p{
+        font-family: Times, "Times New Roman", Georgia, serif ;
+        font-style: normal;
+        font-size: 14px;
+        color: #666666;
+
+    }
+
+    #footer-email{
+        width: 80%;
+    }
+
+    #footer-last{
+        display: flex;
+        justify-content: start;
+        background-color: #f5f5f5;
+
+    }
+
+    #fleft{
+        display: flex;
+        margin-top: 30px;
+    }
+
+    #fleft img{
+        width: 3%;
+        margin-left: 20px;
+    }
+
+    #fright{
+        margin-left: 180px;
+    }
+    </style>
+<body>
+    <!-- navbar -->
+        <!-- top navbar -->
+    <div class="topnav">
+        <div class="dropdown">
+            <button class="dropbtn">Men</button>
+            <div class="dropdown-content">
+                <ul>Jeans</ul>
+                <ul>Shirts</ul>
+                <ul>Pants</ul>
+                <ul>Jackets</ul>
+                <ul>Shorts</ul>
+                <ul>Hoodies</ul>
+                <ul></ul>
+                <ul></ul> 
+                
+            </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn">Women</button>
+            <div class="dropdown-content">
+                <ul>Top</ul>
+                <ul>Jeans</ul>
+                <ul>Jackets</ul>
+                <ul>Hoodies</ul>
+                <ul>Sub Glasses</ul>
+  
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Artish Collab</button>
+            <div class="dropdown-content">
+                <ul>George Thomas</ul>
+                <ul>Boomranng</ul>
+            </div>
+        </div>   
+        <div class="dropdown">
+            <button class="dropbtn">collections</button>
+            <div class="dropdown-content">
+                <ul>Summer Tees</ul>
+                <ul>Varsity</ul>
+                <ul>Retrograde</ul>
+                <ul>Field day</ul>
+                <ul>Supernova</ul>
+                <ul>General Store</ul>
+            </div>
+        </div>
+  
+        <div class="brand">
+            <h1>Shoplliex</h1>
+        </div>
+        <div class="right">
+            <img src="../home page picture/search.svg" alt="">
+            <a href="../signin.html">
+                <img src="../home page picture/login.svg" alt="">
+            </a>
+            
+            <a href="../cart.html">
+                <img src="../home page picture/cart.svg" alt="">
+            </a>
+        </div>
+      </div>    
+      <!-- top navbar -->
+
+<div class="main">
+
+
+
+    <div id="sub_main">
+    <!-- women top section html part  -->
+
+    <div class="women_head">
+
+        <div class="heading">
+            <h2>WOMEN</h2>
+        </div>
+
+        <div id="slider">
+               
+        </div>
+
+        <div class="top_div">
+            <h1>WHAT TO WEAR WHERE</h1>
+         <div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://rukminim1.flixcart.com/image/612/612/kzygpzk0/kurta/c/c/n/s-anu1153-annu-paridhan-original-imagburgxue2fesm.jpeg?q=70" alt=""></a>
+                <a href="./womenProducts.html"><p>TopWear</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://rukminim1.flixcart.com/image/612/612/kxaq7ww0/sari/o/k/q/free-grey-1692-6-kashvi-sarees-unstitched-original-imag9s7ggsjw2gcn.jpeg?q=70" alt=""></a>
+                <a href="./womenProducts.html"><p>Ethnic Wear</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/6/h/s/free-mirror-maroon-freesize-viara-original-imagbyftgx9d2gbj-bb.jpeg?q=70" alt=""></a>
+                <a href="./womenProducts.html"><p>BottomWear</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://rukminim1.flixcart.com/image/612/612/kvpklu80/dress/r/3/4/s-aa-0119-mauve-boho-long-dress-aayu-original-imag8k648mcxpeud.jpeg?q=70" alt=""></a>
+                <a href="./womenProducts.html"><p>Western Wear</p></a>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <!-- women middle section html part  -->
+
+    <div class="women_middle">
+
+        <div class="mid_div">
+            <h2>SHOP BY CATEGORY</h2>
+        <div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_02WK1_RTW_Essentials_Dresses_1674060326961.png?wid=254&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>Dresses</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_02WK1_RTW_Essentials_TopsTees_1674060327083.png?wid=254&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>Tops and Tees</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_02WK1_RTW_Essentials_JeansDenim_1674060326984.png?wid=254&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>Jeans and denim</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_02WK1_RTW_Essentials_CoatsJackets_1674060326935.png?wid=254&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>Coats & Jackets</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_02WK1_RTW_Essentials_EveningFormal_1674060326975.png?wid=254&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>Formal Gowns</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_02WK1_RTW_Essentials_Sweaters_1674060327041.png?wid=254&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>Sweaters</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_02WK1_RTW_Essentials_CocktailPartyDresses_1674060326947.png?wid=254&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>Coktail Dresses</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_02WK1_RTW_Essentials_PantsLeggings_1674060327007.png?wid=254&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>Pants & Langgings</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_02WK1_RTW_Essentials_Blazers_1674060326921.png?wid=254&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>Blazers</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_02WK1_RTW_Essentials_ShortsSkirts_1674060327027.png?wid=254&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>Shorts & Skirts</p></a>
+            </div>
+
+        </div>
+
+        </div>
+
+    </div>    
+    
+<!-- women bottom section html part  -->
+
+    <div class="women_bottom">
+
+        <div class="bottom_div">
+            <h2>HAPPENING NOW</h2>
+
+        <div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_01WK1_RTW_FeaturedTiles_BestSellers_JC_1671652305342.png?wid=342&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>Best Sellers</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_01WK1_RTW_FeaturedTiles_TheWorkShop_JC_1671652305359.png?wid=342&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>The Work Shop</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_01WK1_RTW_FeaturedTiles_VacationShop_JC_1674058271588.png?wid=342&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>The Vacation Shop</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2022_12WK1_RTW_REFRESH_FEATUREDSHOP_NEWARRIVALS_1669056834158.png?wid=342&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>New Arrivals</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_01WK1_RTW_FeaturedTiles_Under200_JC_1671652305375.png?wid=342&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>Most Wanted Styles Under $200 </p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_02WK1_RTW_FeaturedShop_BlackOwnedBrands_1674064332355.png?wid=341&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>Black Owned and/Or Founded Brand</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2023_01WK1_RTW_FeaturedTiles_Weekends_JC_1671652305393.png?wid=342&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>The Weekend Shop</p></a>
+            </div>
+            <div>
+                <a href="./womenProducts.html"><img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2022_12WK1_RTW_REFRESH_FEATUREDSHOP_SKI_1669056834174.png?wid=342&scl=1" alt=""></a>
+                <a href="./womenProducts.html"><p>The Ski Shop</p></a>
+            </div>
+            
+        </div>
+
+      </div>
+
+  </div>
+  <!-- women bottom section compeleted -->
+
+ </div>
+<!-- sub main completed -->
+
+</div>
+<!-- main div completed -->
+<!-- footer -->
+<footer>
+    <div id="mainfooter">
+        <div id="footer-first">
+            <h3>About</h3>
+            <p>Out Story</p>
+            <p>Contact Us</p>
+            <p>Carrer</p>
+            <p>Privacy Policy</p>
+        </div>
+        <div id="footer-second">
+            <h3>Support</h3>
+            <p>Payment</p>
+            <p>Return/Exchange</p>
+            <p>Shippent</p>
+            <p>Terms and condition</p>
+        </div>
+        <div id="footer-third">
+            <h3>Customer Care</h3>
+            <p>Timings: 10 AM - 6 PM (Mon - Sat)</p>
+            <p>Call: +91 7011263423</p>
+            <p>E-Mail: care@koovs.com</p>
+            
+        </div>
+        <div id="footer-fourth">
+            <h3>Subscribe</h3>
+            <p>Enter your email below to be the first to know 
+           <br>about new collections and product launches</p>
+            <input type="email" id="footer-email" placeholder="Enter your email">
+        </div>
+    </div>
+
+  </footer>
+  <div id="footer-last">
+      <div id="fleft">
+          <img src="../home page picture/facebookfooterlogo.svg" alt="">
+          <img src="../home page picture/instafooterlogo.svg" alt="">
+      </div>
+      <div id="fmiddle">
+          <p>© NEWBRAVE VENTURE PRIVATE LIMITED</p>
+      </div>
+      <div id="fright">
+          <img src="https://cdn.shopify.com/s/files/1/0677/1464/6315/files/payment-removebg-preview-01.png?v=1668333198&width=360" alt="">
+      </div>
+  </div>
+
+</body>
+
+<script>
+  index=0;
+
+let slideshow=document.getElementById("slider")
+let  images = document.createElement("img")
+slideshow.append(images)
+
+
+// Use the following data for slideshow
+
+var slideshowImage = [
+                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_QSfxl46VNb2u3Kv5qCGu1ZQ1rbWTq0IQw&usqp=CAU",
+                // "https://www.shutterstock.com/image-photo/shoes-advertising-banner-different-header-260nw-1449548918.jpg",
+                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEEVVwdZoRXV4-y2IReQXQ5gNYELavYP8hZw&usqp=CAU",
+                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu4HFRv-KmC0cuNyUo4WgIq0iRD-HxrWG1Ng&usqp=CAU",
+                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSieadbin_b1to_A2V_Yr9oVVghQ5SPCWb37A&usqp=CAU",
+                
+            ]
+
+slideshowFun(slideshowImage);
+
+function slideshowFun(imagess){
+
+    images.setAttribute("src",imagess[index])
+
+    if(index==imagess.length-1){
+      index=0;
+    }
+    else{
+      index++
+    }
+   
+}
+
+window.addEventListener("load", function () {
+      
+    setInterval(slideshowFun,1500,slideshowImage);
+
+});
+
+
+subnavbtn = document.querySelector(".subnavbtn")
+
+subnavbtn.addEventListener("click",(e)=>{
+      e.preventDefault()
+
+      location.href="../HTML/womenSection.html"
+})
+</script>
+</html>

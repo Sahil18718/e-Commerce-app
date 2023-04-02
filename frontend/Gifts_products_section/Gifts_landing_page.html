@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gifts</title>
+    <style>
+ /* navbar */
+
+
+ .dropbtn {
+          background-color: white;
+          color: black;
+          padding: 10px;
+          font-size: 18px;
+          border: none;
+          margin-top: 18px;
+      }
+
+      .dropdown {
+          position: relative;
+          display: inline-block;
+      }
+
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+      }
+
+      .dropdown-content ul{   
+          font-family: Garamond;
+          color: #484747;
+      }
+      .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+      }
+
+      .dropdown-content a:hover {
+          
+          background-color: #ddd;
+      }
+
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+
+      .dropdown:hover .dropbtn {
+          background-color: white;
+      }
+
+      .brand h1{
+          font-family: 'Courier New', Courier, monospace;
+          margin-top: 20px;
+      }
+      .topnav{
+          display: flex;
+          
+      }
+
+      .brand{
+          margin-left:20% ;
+      }
+
+      .right{
+          display: flex;
+          /* justify-content: space-between; */
+          margin-left:28%;
+      }
+
+      .right img{
+        height: 30%;
+        margin-top: 20px;
+        margin-left: 30px;
+      }
+      /* navbar */
+        #main-sub{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #main-body{
+                    width: 80%;
+                }
+                #categories{
+                    margin: auto;             
+                 }
+                #categories>div:nth-child(2)>img{
+                    width:1074px ;
+                    scale: 1;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    align-items: center;
+                    /* transform: scale(1.1); */
+                }
+                .cards-images{
+                    display: flex;
+                    justify-content: space-around;
+                }
+                #cards-image h2{
+                    text-align: center;
+                    font-family: cursive;
+                }
+                .cards-images>a>img{
+                    width: 200px;
+                    height: 250px;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    transition: calc(1.0s);
+                }
+                .cards-images>a>img:hover{
+                    transform: scale(1.1);
+                }
+                .center{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 50%;
+                }
+                #Categories-type{
+                    margin-top: 4cm;
+                }
+                #Categories-type>div>p{
+                    font-size:15px;
+                    font-weight: lighter;
+                    display: block;
+                }
+                #Categories-type>div>p:hover{
+                    color: teal;
+                }
+                #Categories-type>div{
+                    width: 100%;
+                }
+                #Categories-type>div>h4{
+                    color: mediumslateblue;
+                }
+                @media screen and (min-width:800px) and (max-width:1100px){
+                    
+                }
+                @media screen and (min-width:100px) and (max-width:799px){
+                    .cards-images{
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                }
+    </style>
+    <style id="sliding_images_style_box">
+        .slideshow-container>div img{
+            width:100%;
+            height: 50%;
+        }
+        .sliding{
+            margin-top: 2cm;
+        }
+        .slideshow-container {
+            max-width: 1510px;
+        }
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+}
+
+/* Next and previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+    </style>
+    <style>
+
+      #foot{
+  /* border: 2px solid black; */
+  display: flex;
+  background-color:#c0c9cf;
+  margin-top: 50px;
+ 
+}
+.f{
+  margin-top:5px ;
+  margin: auto;
+  
+}
+.f img{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+.last{
+  text-align: center;
+  margin-top :25px; ;
+
+}
+.last p{
+  font-family:  Garamond, serif;
+
+}
+
+/* footer */
+#mainfooter{
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    #mainfooter h3{
+        margin-top: 50px;
+    }
+
+    #mainfooter p{
+        font-family: Times, "Times New Roman", Georgia, serif ;
+        font-style: normal;
+        font-size: 14px;
+        color: #666666;
+
+    }
+
+    #footer-email{
+        width: 80%;
+    }
+
+    #footer-last{
+        display: flex;
+        justify-content: start;
+        background-color: #f5f5f5;
+
+    }
+
+    #fleft{
+        display: flex;
+        margin-top: 30px;
+    }
+
+    #fleft img{
+        width: 3%;
+        margin-left: 20px;
+    }
+
+    #fright{
+        margin-left: 180px;
+    }
+  </style>
+</head>
+<body>
+
+    <!-- <*******Mens_middle_section****> -->
+    <!-- Navigation part -->
+   <!-- top navbar -->
+   <div class="topnav">
+    <div class="dropdown">
+        <button class="dropbtn">Men</button>
+        <div class="dropdown-content">
+            <ul>Jeans</ul>
+            <ul>Shirts</ul>
+            <ul>Pants</ul>
+            <ul>Jackets</ul>
+            <ul>Shorts</ul>
+            <ul>Hoodies</ul>
+            <ul></ul>
+            <ul></ul> 
+            
+        </div>
+    </div> 
+    <div class="dropdown">
+        <button class="dropbtn">Women</button>
+        <div class="dropdown-content">
+            <ul>Top</ul>
+            <ul>Jeans</ul>
+            <ul>Jackets</ul>
+            <ul>Hoodies</ul>
+            <ul>Sub Glasses</ul>
+
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Artish Collab</button>
+        <div class="dropdown-content">
+            <ul>George Thomas</ul>
+            <ul>Boomranng</ul>
+        </div>
+    </div>   
+    <div class="dropdown">
+        <button class="dropbtn">collections</button>
+        <div class="dropdown-content">
+            <ul>Summer Tees</ul>
+            <ul>Varsity</ul>
+            <ul>Retrograde</ul>
+            <ul>Field day</ul>
+            <ul>Supernova</ul>
+            <ul>General Store</ul>
+        </div>
+    </div>
+
+    <div class="brand">
+        <h1>Shoplliex</h1>
+    </div>
+    <div class="right">
+        <img src="../home page picture/search.svg" alt="">
+        <a href="./signin.html">
+            <img src="../home page picture/login.svg" alt="">
+        </a>
+        
+        <a href="./cart.html">
+            <img src="../home page picture/cart.svg" alt="">
+        </a>
+    </div>
+</div>    
+<!-- top navbar -->
+    <div id="main">
+        <div id="main-sub">
+            <div id="Categories-type">
+                <div>
+                    <h4>NEW & NOTEWORTHY</h4>
+                    <p>NEW: Madewell</p>
+                    <p>New Arrivals</p>
+                    <p>Best Sellers</p>
+                    <p>Wardrobe Essentials</p>
+                    <p>Fashion Director Finds</p>
+                    <p>150th Anniversary Exclusives</p>
+                    <h4>CLOTHING</h4>
+                    <p>Active & Workout</p>
+                    <p>Blazers & Sport Coats</p>
+                    <p>Cashmere</p>
+                    <p>Casual Button-Down Shirts</p>
+                    <p>Coats & Jackets</p>
+                    <p>Dress Shirts</p>
+                    <p>Hoodies & Sweatshirts</p>
+                    <p>Jeans & Denim</p>
+                    <h4>SHOES</h4>
+                    <p>Boots</p>
+                    <p>Clogs & Mules</p>
+                    <p>Dress Shoes</p>
+                    <p>Drivers & Loafers</p>
+                    <p>Sandals & Flip-Flops</p>
+                    <p>Slippers</p>
+                    <p>Sneakers & Athletic</p>
+                    <h4>ACCESSORIES</h4>
+                    <p>Bags & Briefcases</p>
+                    <p>Belts</p>
+                    <p>Hats, Gloves & Scarves</p>
+                    <p>Jewelry & Cufflinks</p>
+                    <p>Sunglasses & Eyewear</p>
+                    <p>Tech Accessories & Headphones</p>
+                    <p>Watches</p>
+                    <h4>FEATURED DESIGNERS</h4>
+                    <p>Ferragamo</p>
+                    <p>Hugo Boss</p>
+                    <p>Theory</p>
+                    <p>Designers A-Z</p>
+                    <p>Formal Occasions</p>
+                    <p>Going Out</p>
+                    <p>Watches</p>
+                </div>
+            </div>
+            <div id="main-body" >
+                <div id="categories">
+                    <div>
+                        <h3 style="text-align: left; font-weight: lighter; font-size: xx-large;" >GIFTS FOR LOVED ONE'S</h3>
+                    </div>
+                    <div>
+                        <img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/EVERGREENGIFTS_JUN_WK4_SELFGIFTING_LPMain_1592410076146.jpg?wid=1170&scl=1" alt="image" class="center">
+                    </div>
+                </div>
+                &nbsp;
+                &nbsp;
+                <div id="cards-image">
+                    <h2>SHOP BY CATEGORY</h2>
+                    &nbsp;
+                    &nbsp;
+                    <div class="cards-images">
+                        <a href="/Products_section(Sumit)/Gifts_products_section/Incence.html"> <img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/2022_04WK1_MULTI_MothersDay_GiftsLP_HomeFragrance_1648238661919.jpg" alt=""></a>
+                        <a href="/Products_section(Sumit)/Gifts_products_section/alcohol.html"> <img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/Weddings_1576595355946.jpg" alt=""></a>
+                        <a href="/Products_section(Sumit)/Gifts_products_section/Gagets.html"> <img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/Tech_1576595355927.jpg" alt=""></a>
+                        <a href=""> <img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/Under_100_1576595355940.jpg" alt=""></a>
+                        <a href=""> <img src="https://images.bloomingdalesassets.com/is/image/BcomMedia/media/Kids_1576595355913.jpg" alt=""></a>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <h2>SHOPPING FOR WEDDING SEASON</h2>
+                    <BR></BR>
+                    <div class="cards-images">
+                        <a href="#"> <img src="https://cdn.shopify.com/s/files/1/0606/5864/7273/products/TMKJRGBA0572_1_500x.jpg" alt=""></a>
+                        <a href="#"> <img src="https://5.imimg.com/data5/TS/PH/MY-28270778/muslim-wedding-dresses-500x500.jpg" alt=""></a>
+                        <a href="#"> <img src="https://5.imimg.com/data5/VT/PL/ZL/SELLER-7071255/kids-wedding-wear-gown-500x500.jpg" alt=""></a>
+                        <a href="#"> <img src="https://shaadiwish.com/blog/wp-content/uploads/2020/12/unique-wedding-outfits.jpg" alt=""></a>
+                        <a href="#"> <img src="https://i.pinimg.com/736x/f4/e8/80/f4e880f4ec10b421631a013d63ff0a10.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sliding">
+            <h2 style="font-weight: lighter; text-align: center;font-size:30px;">WEDDING DELIGHT</h2>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <img src="https://img.freepik.com/free-vector/hand-drawn-flat-wedding-sale-banner_23-2149433352.jpg">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="https://gwminternational.com/wp-content/uploads/2018/12/Chirstmas-sale-banner-scaled.jpg">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="https://img.freepik.com/free-vector/hand-drawn-leaves-wedding-sale-banner-template_23-2149417849.jpg">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="https://d3cif2hu95s88v.cloudfront.net/live-site-2016/2021/anniversary/welcome-anniversary-mobile-banner_1.jpg
+                  ">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="https://static.vecteezy.com/system/resources/thumbnails/001/270/566/small/black-friday-sale-banner-with-white-and-black-gift-boxes.jpg">
+                </div>
+              </div>
+        </div>
+    </div>
+      <!-- <*******Mens_middle_section****> -->
+      <footer>
+        <div id="mainfooter">
+            <div id="footer-first">
+                <h3>About</h3>
+                <p>Out Story</p>
+                <p>Contact Us</p>
+                <p>Carrer</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div id="footer-second">
+                <h3>Support</h3>
+                <p>Payment</p>
+                <p>Return/Exchange</p>
+                <p>Shippent</p>
+                <p>Terms and condition</p>
+            </div>
+            <div id="footer-third">
+                <h3>Customer Care</h3>
+                <p>Timings: 10 AM - 6 PM (Mon - Sat)</p>
+                <p>Call: +91 7011263423</p>
+                <p>E-Mail: care@koovs.com</p>
+                
+            </div>
+            <div id="footer-fourth">
+                <h3>Subscribe</h3>
+                <p>Enter your email below to be the first to know 
+               <br>about new collections and product launches</p>
+                <input type="email" id="footer-email" placeholder="Enter your email">
+            </div>
+        </div>
+
+    </footer>
+    <div id="footer-last">
+        <div id="fleft">
+            <img src="../home page picture/facebookfooterlogo.svg" alt="">
+            <img src="../home page picture/instafooterlogo.svg" alt="">
+        </div>
+        <div id="fmiddle">
+            <p>© NEWBRAVE VENTURE PRIVATE LIMITED</p>
+        </div>
+        <div id="fright">
+            <img src="https://cdn.shopify.com/s/files/1/0677/1464/6315/files/payment-removebg-preview-01.png?v=1668333198&width=360" alt="">
+        </div>
+    </div>
+</body>
+</html>
+<script>
+        var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1
+  }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>

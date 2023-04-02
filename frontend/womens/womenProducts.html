@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>women products</title>
+    <style>
+      .main_products_div{
+   width:95%;
+   margin: auto;
+   display: flex;
+   margin-top: 2%;
+}
+.left_menu
+{
+    width:20%;
+    /* margin: auto; */
+}
+.left_menu select
+{
+ width:90%;   
+ height:50px; 
+ margin: 20px 0px;
+}
+
+
+
+.product_container
+{  
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+.product_container div{
+    /* background-color: white; */
+    text-align: center;
+    padding: 2px 3px ;
+    height:500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.product_container div img{
+    width:100%;
+    height: 60%;
+}
+.product_container h3{
+    font-size: 15px;
+}
+.product_container h4{
+    font-size: 12px;
+    margin:10px 0px
+}
+.product_container p{
+    font-size: 12px;
+    color:black
+}
+.product_container h5{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.product_container button{
+    background-color: black;
+    color:white;
+    padding:15px 30px;
+    text-decoration: none;
+    border: none;
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width:1024px) {
+  .product_container
+{  
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+}
+
+}
+    </style>
+    <style>
+      /* top navbar part */
+    /* navbar */
+
+
+    .dropbtn {
+        background-color: white;
+        color: black;
+        padding: 10px;
+        font-size: 18px;
+        border: none;
+        margin-top: 18px;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content ul{   
+        font-family: Garamond;
+        color: #484747;
+    }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: white;
+    }
+
+    .brand h1{
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 20px;
+    }
+    .topnav{
+        display: flex;
+        
+    }
+
+    .brand{
+        margin-left:20% ;
+    }
+
+    .right{
+        display: flex;
+        /* justify-content: space-between; */
+        margin-left:28%;
+    }
+
+    .right img{
+      height: 30%;
+      margin-top: 20px;
+      margin-left: 30px;
+    }
+    /* navbar */
+  </style>
+  <style>
+
+    #mainfooter{
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    #mainfooter h3{
+        margin-top: 50px;
+    }
+
+    #mainfooter p{
+        font-family: Times, "Times New Roman", Georgia, serif ;
+        font-style: normal;
+        font-size: 14px;
+        color: #666666;
+
+    }
+
+    #footer-email{
+        width: 80%;
+    }
+
+    #footer-last{
+        display: flex;
+        justify-content: start;
+        background-color: #f5f5f5;
+
+    }
+
+    #fleft{
+        display: flex;
+        margin-top: 30px;
+    }
+
+    #fleft img{
+        width: 3%;
+        margin-left: 20px;
+    }
+
+    #fright{
+        margin-left: 180px;
+    }
+    </style>
+</head>
+<body>
+
+  <!-- top navbar -->
+  <div class="topnav">
+    <div class="dropdown">
+        <button class="dropbtn">Men</button>
+        <div class="dropdown-content">
+            <ul>Jeans</ul>
+            <ul>Shirts</ul>
+            <ul>Pants</ul>
+            <ul>Jackets</ul>
+            <ul>Shorts</ul>
+            <ul>Hoodies</ul>
+            <ul></ul>
+            <ul></ul> 
+            
+        </div>
+    </div> 
+    <div class="dropdown">
+        <button class="dropbtn">Women</button>
+        <div class="dropdown-content">
+            <ul>Top</ul>
+            <ul>Jeans</ul>
+            <ul>Jackets</ul>
+            <ul>Hoodies</ul>
+            <ul>Sub Glasses</ul>
+
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Artish Collab</button>
+        <div class="dropdown-content">
+            <ul>George Thomas</ul>
+            <ul>Boomranng</ul>
+        </div>
+    </div>   
+    <div class="dropdown">
+        <button class="dropbtn">collections</button>
+        <div class="dropdown-content">
+            <ul>Summer Tees</ul>
+            <ul>Varsity</ul>
+            <ul>Retrograde</ul>
+            <ul>Field day</ul>
+            <ul>Supernova</ul>
+            <ul>General Store</ul>
+        </div>
+    </div>
+
+    <div class="brand">
+        <h1>Shoplliex</h1>
+    </div>
+    <div class="right">
+        <img src="../home page picture/search.svg" alt="">
+        <a href="../signin.html">
+            <img src="../home page picture/login.svg" alt="">
+        </a>
+        
+        <a href="../cart.html">
+            <img src="../home page picture/cart.svg" alt="">
+        </a>
+    </div>
+  </div>    
+  <!-- top navbar -->
+
+    <div class="main_products_div">
+
+        <div class="left_menu">
+
+            <label for="price">Sort Price</label>
+
+            <select id="sortprice">
+                <option value="">Price</option>
+                <option value="l2h">low to high</option>
+                <option value="h2l">high to low</option>
+            </select><br>
+
+            <label for="category">Select Category</label>
+
+            <select id="filter_category" name="category">
+                <option value="all">All</option>
+                <option value="tops">tops</option>
+                <option value="shirt">shirt</option>
+            </select><br>
+
+            <label for="color">Select Color</label>
+
+            <select id="filter_color">
+                <option value="all">All</option>
+                <option value="black">black</option>
+                <option value="white">white</option>
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="blue">blue</option>
+                <option value="pink">pink</option>
+            </select><br>
+           
+            <label for="price">Select Price Range</label>
+            <select id="price_range">
+                <option value="all">All</option>
+                <option value="100_300">100 to 300</option>
+                <option value="400_800">400 to 800</option>
+                <option value="900_3000">900 to 3000</option>
+                <option value="4000_10000">4000 to 10000</option>
+
+            </select><br>
+
+        </div>
+
+       <div class="product_container">
+           
+       </div>
+
+    </div>
+    <footer>
+      <div id="mainfooter">
+          <div id="footer-first">
+              <h3>About</h3>
+              <p>Out Story</p>
+              <p>Contact Us</p>
+              <p>Carrer</p>
+              <p>Privacy Policy</p>
+          </div>
+          <div id="footer-second">
+              <h3>Support</h3>
+              <p>Payment</p>
+              <p>Return/Exchange</p>
+              <p>Shippent</p>
+              <p>Terms and condition</p>
+          </div>
+          <div id="footer-third">
+              <h3>Customer Care</h3>
+              <p>Timings: 10 AM - 6 PM (Mon - Sat)</p>
+              <p>Call: +91 7011263423</p>
+              <p>E-Mail: care@koovs.com</p>
+              
+          </div>
+          <div id="footer-fourth">
+              <h3>Subscribe</h3>
+              <p>Enter your email below to be the first to know 
+             <br>about new collections and product launches</p>
+              <input type="email" id="footer-email" placeholder="Enter your email">
+          </div>
+      </div>
+
+    </footer>
+    <div id="footer-last">
+        <div id="fleft">
+            <img src="../home page picture/facebookfooterlogo.svg" alt="">
+            <img src="../home page picture/instafooterlogo.svg" alt="">
+        </div>
+        <div id="fmiddle">
+            <p>© NEWBRAVE VENTURE PRIVATE LIMITED</p>
+        </div>
+        <div id="fright">
+            <img src="https://cdn.shopify.com/s/files/1/0677/1464/6315/files/payment-removebg-preview-01.png?v=1668333198&width=360" alt="">
+        </div>
+    </div>
+</body>
+<script>
+  fetchedData=[]
+cardData=JSON.parse(localStorage.getItem("carddata"))||[]
+fetch("shop.json")
+.then((response)=>{
+    return response.json()
+})
+.then((data)=>{
+    fetchedData=data.womenTopwear
+    console.log(data.womenTopwear)
+    display(fetchedData)
+})
+.catch((error)=>{
+    console.log(error)
+})
+
+
+// given_name=document.getElementById("give_name")
+
+product_container=document.querySelector(".product_container")
+
+function display(data){
+   product_container.innerHTML=""
+    data.map((el,i) => {
+
+        div=document.createElement("div")
+
+        img=document.createElement("img")
+        img.src=el.img
+
+        h3=document.createElement("h3")
+        h3.innerText=el.name;
+
+        price=document.createElement("h4")
+        price.innerText=`MRP:₹${el.price}`
+
+        pr=document.createElement("p")
+        pr.innerText=`Category:${el.catagory}`
+
+        rating=document.createElement("h5")
+        rating.innerText=el.rating
+
+        btn=document.createElement("button")
+        btn.innerText="Add To Bag"
+
+        btn.addEventListener("click",function(){
+
+            if(checkdata(el)==true){
+                alert("Product Already In Card")
+                // al.innerText="Already Placed Order"
+              }
+              else{
+    
+                cardData.push({...el,quantity:1})
+                localStorage.setItem("carddata",JSON.stringify(cardData))
+                alert("Successfully Added in Card 😊")
+                // al.innerText="Successfully Placed Order"
+    
+              }
+        })
+
+        div.append(img,h3,price,pr,rating,btn)
+        product_container.append(div)
+
+    })
+
+    function checkdata(el){
+
+        for(let i=0;i<cardData.length;i++){
+          if(cardData[i].id == el.id){
+            return true
+          }
+        }
+        return false
+      }
+}
+
+
+// for sorting
+
+let sortprices=document.getElementById("sortprice")
+
+    sortprices.addEventListener("change",function (e){
+
+      e.preventDefault()
+      let selected = sortprices.value
+
+      if(selected == "h2l"){
+        let x = [...fetchedData]
+        x.sort((a,b) => b.price - a.price)
+        console.log(x)
+        display(x)
+      }
+      if(selected == "l2h"){
+        let x = [...fetchedData]
+        x.sort((a,b) => a.price - b.price)
+        display(x)
+        console.log(x)
+      }
+      if(selected == ""){
+        display(fetchedData)
+      }
+    })
+
+let category = document.getElementById("filter_category")
+
+category.addEventListener("change",function(e){
+    // e.preventDefault()
+
+    let cate_value = category.value
+    console.log(cate_value)
+    if(cate_value=="all"){
+        display(fetchedData)
+    }else if(cate_value=="tops"){
+        let abc=fetchedData.filter((elem)=>{
+            return elem.catagory=="tops"
+        })
+        display(abc)
+    }else if(cate_value=="shirt"){
+        let abc=fetchedData.filter((elem)=>{
+            return elem.catagory=="shirt"
+        })
+        display(abc)
+    }
+
+})
+
+let color = document.getElementById("filter_color")
+
+color.addEventListener("change",function(e){
+    e.preventDefault()
+
+    let color_value = color.value
+    console.log(color_value)
+    if(color_value=="all"){
+        display(fetchedData)
+    }else if(color_value=="black"){
+        let abc=fetchedData.filter((elem)=>{
+            return elem.color=="black"
+        })
+        display(abc)
+    }else if(color_value=="white"){
+        let abc=fetchedData.filter((elem)=>{
+            return elem.color=="white"
+        })
+        display(abc)
+    }else if(color_value=="red"){
+        let abc=fetchedData.filter((elem)=>{
+            return elem.color=="red"
+        })
+        display(abc)
+    }
+    else if(color_value=="orange"){
+        let abc=fetchedData.filter((elem)=>{
+            return elem.color=="orange"
+        })
+        display(abc)
+    }
+    else if(color_value=="green"){
+        let abc=fetchedData.filter((elem)=>{
+            return elem.color=="green"
+        })
+        display(abc)
+    }
+    else if(color_value=="blue"){
+        let abc=fetchedData.filter((elem)=>{
+            return elem.color=="blue"
+        })
+        display(abc)
+    }
+
+    
+})
+
+let range_price = document.getElementById("price_range")
+
+range_price.addEventListener("change",()=>{
+
+    if(range_price.value=="all"){
+        display(fetchedData)
+    }
+    else if(range_price.value=="900_3000"){
+        let abc=fetchedData.filter((elem)=>{
+            return elem.price>=900 && elem.price<=3000
+        })
+        display(abc)
+    }
+    else if(range_price.value=="100_300"){
+        let abc=fetchedData.filter((elem)=>{
+            return elem.price>=100 && elem.price<=300
+        })
+        display(abc)
+    }
+    else if(range_price.value=="400_800"){
+        let abc=fetchedData.filter((elem)=>{
+            return elem.price>=400 && elem.price<=800
+        })
+        display(abc)
+    }
+    else if(range_price.value=="4000_10000"){
+        let abc=fetchedData.filter((elem)=>{
+            return elem.price>=4000 && elem.price<=10000
+        })
+        display(abc)
+    }
+})
+
+
+</script>
+</html>
