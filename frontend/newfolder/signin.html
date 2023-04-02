@@ -82,7 +82,7 @@
                 <h2>Log In</h2>
                 <input type="email" id="email" placeholder="Email">
                 <input type="pass" id="pass" placeholder="Password">
-                <button id="login">Login</button>
+                <button onclick="login()" id="login">Login</button>
                 <button id="google">Sign in with Google <img src="" alt=""></button>
             </div>
             <div class="new">
@@ -138,4 +138,25 @@
             </div>
         </div>
 </body>
+<script>
+    const login=()=>{
+        const payload={
+            email:document.getElementById("email").value,
+            pass:document.getElementById("pass").value,
+        }
+        fetch("http://localhost:5050/users/login",{
+            method:"POST",
+            headers:{
+                "Content-type":"application/json"
+            },
+            body:JSON.stringify(payload)
+        }).then(res=>res.json())
+        .then(res=>{
+            console.log(res)
+            localStorage.setItem("token",res.token)
+            window.location="./index.html"
+        })
+        .catch(err=>console.log(err))
+    }
+</script>
 </html>
