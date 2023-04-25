@@ -5,10 +5,10 @@ deployed link:https://subtle-florentine-6d190f.netlify.app/
 
 User Side
 
-Home Page
-Menu Page
-Product Page
-login/sign up Page
-Cart Page
-Checkout Page
-Order Confirmed Page
+1. Home Page
+2. Menu Page
+3. Product Page
+4. login/sign up Page
+5. Cart Page
+5. Checkout Page
+6. Order Confirmed Page
