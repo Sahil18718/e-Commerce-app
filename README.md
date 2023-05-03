@@ -12,3 +12,7 @@ User Side
 5. Cart Page
 5. Checkout Page
 6. Order Confirmed Page
+
+
+<h3>Landing page</h3>
+![screencapture-subtle-florentine-6d190f-netlify-app-2023-05-03-16_20_18](https://user-images.githubusercontent.com/119488054/235917544-7a77d73a-496f-4020-b229-bb0164614967.png)
